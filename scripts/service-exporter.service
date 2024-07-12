@@ -1,0 +1,10 @@
+[Unit]
+Description=Service Exporter for Prometheus
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/service-exporter
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
