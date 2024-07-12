@@ -1,0 +1,5 @@
+# config.yaml
+services: []
+
+interval: 60s  # Service discovery interval
+metrics_endpoint: /metrics
